@@ -4,11 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Multiplayer Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
+        <table class="mainBodyTable">
+            <tr>
+                <td onclick="setBox(0)" id="0">_</td>
+                <td onclick="setBox(1)" id="1">_</td>
+                <td onclick="setBox(2)" id="2">_</td>
+            </tr>
+            <tr>
+                <td onclick="setBox(3)" id="3">_</td>
+                <td onclick="setBox(4)" id="4">_</td>
+                <td onclick="setBox(5)" id="5">_</td>
+            </tr>
+            <tr>
+                <td onclick="setBox(6)" id="6">_</td>
+                <td onclick="setBox(7)" id="7">_</td>
+                <td onclick="setBox(8)" id="8">_</td>
+            </tr>
+        </table>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
