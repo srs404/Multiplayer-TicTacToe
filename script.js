@@ -54,6 +54,6 @@ function checkWin() {
 function reset() {
     for (var i = 0; i < 9; i++) {
         game[i] = 0;
-        document.getElementById(i).innerHTML = "/";
+        document.getElementById(i).innerHTML = "<span style='visibility: hidden;'>_</span>";
     }
 }
